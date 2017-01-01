@@ -12,10 +12,14 @@ app.use(express.static('public'));
 // app.use('/', routes);
 // app.use('/users', users);
 
-app.get('/', function (req, res) {
-  res.sendfile("bar-chart-3/data.tsv");
-  res.send('Hello World!');
-})
+// app.get('/', function (req, res) {
+//   res.send('Hello World!');
+// })
+
+// Default route.
+app.get('/', function(req, res){
+  res.sendfile('index.html');
+});
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
