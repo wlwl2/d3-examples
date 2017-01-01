@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/wlwl2/d3-tutorials/issues"
   },
-  "homepage": "https://github.com/wlwl2/d3-tutorials#readme"
+  "homepage": "https://github.com/wlwl2/d3-tutorials#readme",
+  "dependencies": {
+    "d3-dsv": "^1.0.3",
+    "d3-request": "^1.0.3",
+    "express": "^4.14.0"
+  }
 }

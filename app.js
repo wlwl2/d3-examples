@@ -13,7 +13,8 @@ app.use(express.static('public'));
 // app.use('/users', users);
 
 app.get('/', function (req, res) {
-  res.send('Hello World!')
+  res.sendfile("bar-chart-3/data.tsv");
+  res.send('Hello World!');
 })
 
 // catch 404 and forward to error handler
