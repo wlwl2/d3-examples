@@ -19,3 +19,8 @@ svg.selectAll("circle")
     .attr("cy", 60)
     .attr("cx", function(d, i) { return i * 100 + 30; })
     .attr("r", function(d) { return Math.sqrt(d); });
+
+var circle = svg.selectAll("circle")
+    .data([57]);
+
+    circle.exit().remove();
