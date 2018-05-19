@@ -1,3 +1,3 @@
-open public/index.html
-or the other html files in the public folder
-or run 'npm start' in a terminal
+# d3 samples
+
+open src/index.html to view data-viz samples built with d3 v4.4.0
